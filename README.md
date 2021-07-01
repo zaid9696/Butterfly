@@ -1,3 +1,3 @@
-# Butterfly
+# Butterfly Woocommerce Shop
 
 
