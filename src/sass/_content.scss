@@ -1,0 +1,97 @@
+
+.storefront-product-section .section-title {
+
+	font-size: 2.7em;
+	@media screen and (max-width: 768px) {
+		font-size: 2.2em;
+	}
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-weight: 700;
+    color: var(--third-color);
+}
+
+
+ul.products li.product .woocommerce-LoopProduct-link {
+
+	box-shadow: 0px 0px 3px 1px #00000026;
+	text-align: left;
+	&.women img {border: 1px solid #f97d9145;}
+	&.men img {border: 1px solid #5500ff2e;}
+
+	& h2,
+	& span.price,
+	& span.short_description {
+		padding-left: 0.8em;
+		display: block;
+    	padding-right: 0.8em;
+	}
+
+	& h2 {
+		font-weight: 700;
+	}
+
+	& span.price {
+		padding-bottom: 1.1em;
+		font-size: 1.3em;
+		ins {& span.woocommerce-Price-amount.amount {
+			    color: #ff005e;
+    			font-weight: 700;
+			}}
+	}
+}
+
+ul.products li.product .button {
+
+	box-shadow: 0px 0px 3px 1px #00000026;
+}
+
+.yith-wcwl-icon.fa-heart-o:before,
+.yith-wcwl-icon.fa-heart:before, {
+	background: #ffffff26;
+    padding: 6px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 5px 1px #00000021;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    filter: grayscale(0);
+    color: var(--secondary-color);
+ }
+
+.yith-wcwl-icon.fa-heart-o:before, { 
+
+	color: #0000004a;
+
+}
+
+.onsale {
+
+	margin: 6px auto;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border: #fff 1px solid;
+    background: #ff0063de;
+    color: #fff;
+    font-size: 1em;
+}
+
+.single-product {
+	.onsale {
+		width: 50%;
+		@media screen and (max-width: 767px) {
+			width: 100%;
+		}
+	}
+}
+
+.single-product .woocommerce-LoopProduct-link.woocommerce-loop-product__link {
+
+	.onsale {
+		width: 100%;
+	}
+}
+
+
+
+

@@ -1,0 +1,25 @@
+
+.services {
+	 display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    column-gap: 30px;
+    border-top: 1px solid #5500ff78;
+    border-bottom: 1px solid #5500ff78;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &__content {
+    	text-align: center;
+    	img {
+    		margin: 0 auto;
+    	}
+
+    	p {
+    		margin-top: 0.7em;
+		    border: 1px solid var(--secondary-color);
+		    padding: 0.6em;
+		    border-radius: 3px;
+		    font-weight: 600;
+		    line-height: 1.5em;
+    	}
+    }
+}

@@ -1,0 +1,20 @@
+.single-product p {
+
+	color: var(--third-color);
+}
+
+@media screen and (max-width: 600px) {
+	
+.woocommerce-wishlist {
+
+	.product-name {
+		h3 {
+			font-size: 1em;
+			a {
+			font-weight: 600;
+				
+			}
+		}
+	}
+}
+}
