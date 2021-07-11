@@ -1,3 +1,5 @@
-# Butterfly Woocommerce Shop
+# Butterfly
+
+a custom WooCommerce theme 
 
 
